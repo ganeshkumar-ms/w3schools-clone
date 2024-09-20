@@ -119,8 +119,7 @@
     width: 20%;
     height: 100%;
     background-color: rgba(174, 178, 180, 0.279);
-    padding: 10px;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     overflow-y: scroll;
     position: fixed;
     top: 87px;
@@ -128,16 +127,16 @@
 
 .sidenavigation h7 {
     font-size: 25px;
-    padding: 5px;
     cursor: default;
+    padding: 10px;
+    padding-left: 16px;
 }
 
 .sidenavigation p {
     font-size: 16px;
-    padding: 5px;
-    margin-left: 20px;
     cursor: pointer;
     width: 100%;
+    padding: 2px 15px 1px 40px;
 }
 
 .sidenavigation p:active {
@@ -501,8 +500,9 @@ li:hover {
 
 .footer {
     background-image: url(https://wallpapers.com/downloads/high/green-space-7fwm57jdldylfq0b.webp);
-    width: 1000px;
-    height: 1000px;
+    width: 100%;
+    height: 100%;
+    left: 0;
 }
 
 .footer img {
@@ -605,4 +605,8 @@ li:hover {
 .home{
     background-color: #04AA6D;
     color:#fff;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
