@@ -601,3 +601,8 @@ li:hover {
 .logo{
     margin-top: 0px;
 }
+
+.home{
+    background-color: #04AA6D;
+    color:#fff;
+}
